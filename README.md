@@ -69,20 +69,100 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to see the application.
 
+### 5. Test the Application
+Once your app is running, test it with these steps:
+
+1. **Connect a Test Store:**
+   - Click the **"+"** button in the header
+   - Enter: `https://allbirds.com`
+   - Click **"Connect Store"**
+
+2. **Try These Test Conversations:**
+   ```
+   "What shoes do you recommend for walking?"
+   "Show me your best sellers"
+   "Do you have anything under $100?"
+   "What's the most comfortable shoe?"
+   ```
+
+3. **Check Model Usage:**
+   - Click the **bar chart icon** in the header
+   - Verify your GitHub token works
+   - Monitor AI model usage
+
+**Quick Test Stores:**
+- `https://allbirds.com` - Shoes and apparel
+- `https://kith.com` - Streetwear
+- `https://glossier.com` - Beauty products
+- `https://brooklinen.com` - Home goods
+
 ## 🏪 Connecting Shopify Stores
 
 ### Supported Stores
-The application works with any Shopify store. Here are some popular examples:
+The application works with any Shopify store. Here are some popular examples for testing:
 
-**Fashion & Apparel:**
-- `https://allbirds.com` ✅
-- `https://kith.com` ✅
-- `https://gymshark.com`
-- `https://glossier.com`
+#### 🛍️ **Fashion & Apparel**
+- `https://allbirds.com` ✅ - Sustainable footwear and apparel
+- `https://kith.com` ✅ - Streetwear and sneakers
+- `https://gymshark.com` - Athletic wear and fitness clothing
+- `https://glossier.com` - Beauty and skincare products
+- `https://fashionnova.com` - Women's fashion and accessories
+- `https://reformation.com` - Sustainable women's clothing
+- `https://everlane.com` - Ethical basics and essentials
 
-**Home & Lifestyle:**
-- `https://brooklinen.com`
-- `https://casper.com`
+#### 💄 **Beauty & Cosmetics**
+- `https://kyliecosmetics.com` - Celebrity makeup brand
+- `https://fentybeauty.com` - Inclusive beauty products
+- `https://morphe.com` - Professional makeup and brushes
+- `https://colourpop.com` - Affordable cosmetics
+
+#### 🏠 **Home & Lifestyle**
+- `https://brooklinen.com` - Luxury bedding and home goods
+- `https://casper.com` - Mattresses and sleep products
+- `https://outdoorvoices.com` - Activewear and lifestyle
+- `https://pelacase.com` - Eco-friendly phone cases
+
+#### 🍔 **Food & Beverages**
+- `https://shop.dunkindonuts.com` - Coffee and donuts
+- `https://store.starbucks.com` - Coffee and merchandise
+- `https://drinkcirkul.com` - Flavored water products
+
+#### ⌚ **Electronics & Accessories**
+- `https://mvmt.com` - Watches and accessories
+- `https://popsockets.com` - Phone grips and accessories
+- `https://nomadgoods.com` - Tech accessories and cases
+
+#### 🎨 **Art & Design**
+- `https://society6.com` - Art prints and home decor
+- `https://redbubble.com` - Custom art and merchandise
+
+### Testing Recommendations
+
+**For Best Testing Experience:**
+1. **Start with Allbirds** (`https://allbirds.com`) - Reliable, good product variety
+2. **Try Kith** (`https://kith.com`) - Fashion items, different category
+3. **Test Glossier** (`https://glossier.com`) - Beauty products, different audience
+4. **Explore Brooklinen** (`https://brooklinen.com`) - Home goods, different price range
+
+**Quick Test URLs:**
+```bash
+# Fashion
+https://allbirds.com
+https://kith.com
+https://gymshark.com
+
+# Beauty
+https://glossier.com
+https://kyliecosmetics.com
+
+# Home
+https://brooklinen.com
+https://casper.com
+
+# Tech
+https://mvmt.com
+https://nomadgoods.com
+```
 
 ### How to Connect
 1. Click the **"+"** button in the header
@@ -93,6 +173,8 @@ The application works with any Shopify store. Here are some popular examples:
 ### Store Validation
 - ✅ **Shopify stores**: Full functionality with product data
 - ❌ **Non-Shopify stores**: Clear error message explaining why they won't work
+
+**Pro Tip:** If you're unsure if a store uses Shopify, try adding `/products.json` to the URL. If it returns JSON data, it's a Shopify store!
 
 ## 🤖 AI Models Configuration
 
