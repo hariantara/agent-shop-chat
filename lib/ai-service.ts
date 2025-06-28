@@ -7,10 +7,22 @@ const endpoint = "https://models.github.ai/inference";
 // Multiple Models Strategy Configuration
 const MODEL_CONFIGS = [
   {
-    name: "microsoft/Phi-4",
-    tier: "low",
-    dailyLimit: 150,
-    description: "High quota, excellent for general conversation"
+    name: "xai/grok-3-mini",
+    tier: "grok",
+    dailyLimit: 30,
+    description: "Conversational AI with personality - great for natural chat"
+  },
+  {
+    name: "openai/gpt-4o-mini",
+    tier: "high", 
+    dailyLimit: 50,
+    description: "Premium model with excellent conversation quality"
+  },
+  {
+    name: "openai/gpt-4o",
+    tier: "high",
+    dailyLimit: 50,
+    description: "Most capable model for complex requests"
   },
   {
     name: "meta-llama/Llama-3.3-70B-Instruct", 
@@ -19,22 +31,10 @@ const MODEL_CONFIGS = [
     description: "High quota, great for complex reasoning"
   },
   {
-    name: "openai/gpt-4o-mini",
-    tier: "high", 
-    dailyLimit: 50,
-    description: "Premium model, good for complex tasks"
-  },
-  {
-    name: "xai/grok-3-mini",
-    tier: "grok",
-    dailyLimit: 30,
-    description: "Conversational AI with personality"
-  },
-  {
-    name: "openai/gpt-4o",
-    tier: "high",
-    dailyLimit: 50,
-    description: "Most capable model for complex requests"
+    name: "microsoft/Phi-4",
+    tier: "low",
+    dailyLimit: 150,
+    description: "High quota, good for general tasks"
   }
 ];
 

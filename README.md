@@ -202,11 +202,11 @@ https://nomadgoods.com
 ### Available Models
 | Model | Daily Limit | Tier | Description |
 |-------|-------------|------|-------------|
-| microsoft/Phi-4 | 150 | Low | High quota, excellent conversation |
-| meta-llama/Llama-3.3-70B-Instruct | 150 | Low | High quota, great reasoning |
-| openai/gpt-4o-mini | 50 | High | Premium model, good performance |
-| xai/grok-3-mini | 30 | Grok | Conversational AI with personality |
-| openai/gpt-4o | 50 | High | Most capable model |
+| xai/grok-3-mini | 30 | Grok | Conversational AI with personality - great for natural chat |
+| openai/gpt-4o-mini | 50 | High | Premium model with excellent conversation quality |
+| openai/gpt-4o | 50 | High | Most capable model for complex requests |
+| meta-llama/Llama-3.3-70B-Instruct | 150 | Low | High quota, great for complex reasoning |
+| microsoft/Phi-4 | 150 | Low | High quota, good for general tasks |
 
 ### Automatic Model Rotation
 - **Smart Selection**: Prioritizes models with highest quotas
