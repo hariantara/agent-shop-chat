@@ -6,6 +6,27 @@ A modern AI-powered shopping assistant with WhatsApp-style UI that helps custome
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![GitHub Models](https://img.shields.io/badge/GitHub_Models-API-181717?style=for-the-badge&logo=github)
+![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-00C7B7?style=for-the-badge&logo=vercel)
+
+## 🚀 **DEMO PROJECT**
+
+**Try the live application now!**
+
+👉 **[https://agent-shop-chat.vercel.app/](https://agent-shop-chat.vercel.app/)**
+
+**What you can test:**
+- 🤖 **AI Chat Interface** - WhatsApp-style UI with real AI responses
+- 🏪 **Connect Shopify Stores** - Try with Allbirds, Kith, or any Shopify store
+- 📊 **Model Usage Dashboard** - See AI model rotation in action
+- 💬 **Product Recommendations** - Get real product suggestions from stores
+
+**Quick Demo Steps:**
+1. Visit [https://agent-shop-chat.vercel.app/](https://agent-shop-chat.vercel.app/)
+2. Click the **"+"** button to connect a store
+3. Try: `https://allbirds.com` or `https://kith.com`
+4. Ask: "What shoes do you recommend?" or "Show me your best sellers"
+
+---
 
 ## ✨ Features
 
